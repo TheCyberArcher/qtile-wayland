@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "######### Base Qtile installation #########"
+echo "######### Base qtile installation #########"
 
 echo "starting !"
 
