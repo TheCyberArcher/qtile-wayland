@@ -4,7 +4,7 @@
 
 > blablabla
 
-##### Base packages ####
+### Base packages 
 
 - [qtile](https://archlinux.org/packages/extra/x86_64/qtile/)
 - [qtile-extras](https://aur.archlinux.org/packages/qtile-extras)
@@ -18,6 +18,8 @@
 - [sddm](https://archlinux.org/packages/extra/x86_64/sddm/)
 - [cava](https://aur.archlinux.org/packages/cava)
 - [wofi](https://archlinux.org/packages/extra/x86_64/wofi/)
+
+### Required tools
 
 - [lxsession](https://archlinux.org/packages/extra/x86_64/lxsession-gtk3/) #(provide polkit agent and user session)
 - [nwg-look](https://archlinux.org/packages/extra/x86_64/nwg-look/)  # (wayland apparence editor)
