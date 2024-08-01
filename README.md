@@ -5,8 +5,9 @@
 > This setup is an adaptation to run the qtile windows manager under wayland and get a full desktop experience. It is a variation of my original setup in the qtile-x11 folder here. Some packages are needed to run older applications with the wayland compositor, with partial support. Minor bugs are present for now, but the desktop is fully usable in daily use.
 
 > The bar used is the original qtile one, reworked to be more aesthetic and to integrate well into the modern theme with audio visualizer, workspace indicator and a task manager. This configuration is intended for vanilla archlinux with zen kernel.
-> 
+
 <br />
+
 ### Base packages 
 
 - [qtile](https://archlinux.org/packages/extra/x86_64/qtile/) (base package for Qtile TWM)
