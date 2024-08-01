@@ -119,12 +119,12 @@ screens = [
                     align="left",
                     ),
                 widget.Image(
-                    filename="/home/alerion/Images/decoration1.png", 
+                    filename="~/.config/qtile/assets/decoration1.png", 
                     margin=3,
                     align="left",
                     ),
                 widget.Image(
-                   filename="/home/alerion/Images/decoration2.png",
+                   filename="~/.config/qtile/assets/decoration2.png",
                    margin=5,
                    align="left",
                     ),
@@ -181,7 +181,7 @@ screens = [
             background="#00000099",
         ),
 
-        wallpaper="/home/alerion/Images/wallpaper.jpg",
+        wallpaper=" ~/.config/qtile/assets/wallpaper.jpg",
         wallpaper_mode = 'fill'
     ),
 ]
