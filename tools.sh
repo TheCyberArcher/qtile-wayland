@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "######### qtile tools for wayland install #########"
+echo "######### Base Qtile installation #########"
 
 echo "starting !"
 
