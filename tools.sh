@@ -23,7 +23,6 @@ sudo mv ~/.qtile-dotfiles/autostart.sh ~/.config/qtile/
 sudo mv ~/.qtile-dotfiles/autostart.sh ~/.config/qtile/
 sudo mv ~/.qtile-dotfiles/assets/ ~/.config/qtile/
 
-
 echo "######### Theme Installation #########"
 
 git clone https://github.com/cbrnix/Flatery.git ~/.Flatery
