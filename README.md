@@ -2,7 +2,9 @@
 
 <br />
 
-> blablabla
+> This setup is an adaptation to run the qtile windows manager under wayland and get a full desktop experience. It is a variation of my original setup in the qtile-x11 folder here. Some packages are needed to run older applications with the wayland compositor, with partial support. Minor bugs are present for now, but the desktop is fully usable in daily use.
+
+> The bar used is the original qtile one, reworked to be more aesthetic and to integrate well into the modern theme. The file manager is thunar and the application launcher is wofi.
 
 ### Base packages 
 
