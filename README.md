@@ -12,7 +12,7 @@
 - [qtile-extras](https://aur.archlinux.org/packages/qtile-extras) (add more features and widget)
 - [python-wlroots](https://archlinux.org/packages/extra/x86_64/python-pywlroots/) (python wayland)
 - [wlroots](https://archlinux.org/packages/extra/x86_64/wlroots/) (wayland compositor library)
-- [python-dbus-next](https://archlinux.org/packages/extra/any/python-dbus-next/) (Python library for DBus)
+- [python-dbus-next](https://archlinux.org/packages/extra/any/python-dbus-next/) (python library for DBus)
 - [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/) (xdg-desktop-portal backend for wlroots)
 - [xdg-desktop-portal](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal/) (exposes D-Bus interfaces for file access, opening URIs, printing and more)
 - [xdg-desktop-portal-gtk](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-gtk/) (xdg-desktop backward compatibility)
