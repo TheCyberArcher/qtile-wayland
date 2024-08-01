@@ -2,10 +2,11 @@
 
 ##### Base packages ####
 
-- [qtile]()
-- [qtile-extras]()
-- [python-wlroots]()
-- [wlroots]()
+
+  - [qtile-extras]()
+  - [python-wlroots]()
+  - [wlroots]()
+  - [qtile]()
 - [python-dbus-next]()
 - [xdg-desktop-portal-wlr]()
 - [xdg-desktop-portal]()
@@ -14,7 +15,7 @@
 - [wl-clipboard]()
 - [sddm]()
 - [cava]()
-- [wofi]() # (rofi app launcher for wayland)
+- [wofi]()
 
 
 
