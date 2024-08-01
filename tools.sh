@@ -20,7 +20,7 @@ echo "######### qtile configurations files intall #########"
 sudo rm -rf ~/.config/qtile/
 git clone https://github.com/TheCyberArcher/qtile-wayland.git ~/.qtile-dotfiles
 sudo mv ~/.qtile-dotfiles/autostart.sh ~/.config/qtile/
-sudo mv ~/.qtile-dotfiles/autostart.sh ~/.config/qtile/
+sudo mv ~/.qtile-dotfiles/config.py ~/.config/qtile/
 sudo mv ~/.qtile-dotfiles/assets/ ~/.config/qtile/
 
 echo "######### Theme Installation #########"
