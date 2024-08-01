@@ -3,10 +3,10 @@
 ##### Base packages ####
 
 
-  - [qtile-extras]()
-  - [python-wlroots]()
-  - [wlroots]()
-  - [qtile]()
+- [qtile-extras]()
+- [python-wlroots]()
+- [wlroots]()
+- [qtile]()
 - [python-dbus-next]()
 - [xdg-desktop-portal-wlr]()
 - [xdg-desktop-portal]()
