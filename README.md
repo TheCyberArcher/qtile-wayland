@@ -2,14 +2,13 @@
 
 ##### Base packages ####
 
-
-- [qtile-extras]()
-- [python-wlroots]()
-- [wlroots]()
-- [qtile]()
-- [python-dbus-next]()
-- [xdg-desktop-portal-wlr]()
-- [xdg-desktop-portal]()
+- [qtile](https://archlinux.org/packages/extra/x86_64/qtile/)
+- [qtile-extras](https://aur.archlinux.org/packages/qtile-extras)
+- [python-wlroots](https://archlinux.org/packages/extra/x86_64/python-pywlroots/)
+- [wlroots](https://archlinux.org/packages/extra/x86_64/wlroots/)
+- [python-dbus-next](https://archlinux.org/packages/extra/any/python-dbus-next/)
+- [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/)
+- [xdg-desktop-portal](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal/)
 - [xdg-desktop-portal-gtk]()
 - [xorg-xwayland]()
 - [wl-clipboard]()
