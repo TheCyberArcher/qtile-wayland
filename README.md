@@ -1,5 +1,7 @@
 # Qtile-Wayland
 
+[![screenshot.png](https://i.postimg.cc/nLzzRpfL/screenshot.png)](https://postimg.cc/3ksYWMRM)
+
 <br />
 
 > This setup is an adaptation to run the qtile windows manager under wayland and get a full desktop experience. It is a variation of my original setup in the qtile-x11 folder here. Some packages are needed to run older applications with the wayland compositor, with partial support. Minor bugs are present for now, but the desktop is fully usable in daily use.
@@ -40,3 +42,4 @@
 - [pavucontrol](https://archlinux.org/packages/extra/x86_64/pavucontrol/) (volume Mixer - require pipewire-pulse)
 - [linux-zen-headers](https://archlinux.org/packages/extra/x86_64/linux-zen-headers/) (headers for zen-kernel - required for some apps)
 - [alacritty](https://archlinux.org/packages/extra/x86_64/alacritty/) (terminal emulator)
+- [grimshot](https://aur.archlinux.org/packages/grimshot) (wayland compatible screenshot tool)
