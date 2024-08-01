@@ -22,6 +22,7 @@ git clone https://github.com/TheCyberArcher/qtile-wayland.git ~/.qtile-dotfiles
 sudo mv ~/.qtile-dotfiles/autostart.sh ~/.config/qtile/
 sudo mv ~/.qtile-dotfiles/config.py ~/.config/qtile/
 sudo mv ~/.qtile-dotfiles/assets/ ~/.config/qtile/
+rm -rf ~/.qtile-dotfiles/
 
 echo "######### Theme Installation #########"
 
