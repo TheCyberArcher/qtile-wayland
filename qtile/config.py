@@ -35,7 +35,7 @@ import subprocess
 import os
 
 
-qtile.core.cmd_set_keymap(layout="fr")
+qtile.core.cmd_set_keymap(layout="fr") ### comment this line for X11 and use setxkbmap
 
 ######################################
 # Master key
@@ -165,8 +165,15 @@ screens = [
                     align="left",
                     border="#8805c0",
                     icon_size=0,
-                    margin=4,
+                    margin=6,
                     padding=5,
+                    ),
+                widget.StatusNotifier(
+                    icon_size = 22,
+                ),
+                widget.Spacer(
+                    length = 30,
+                    align="left",
                     ),
             ],
             40,
@@ -236,8 +243,8 @@ keys = [
 
 
     Key([mod], "r", lazy.spawn("wofi --show drun"), desc="wofi"),
-    Key([mod], "XF86AudioLowerVolume", lazy.spawn("ddcutil --bus=7 setvcp 10 - 10")),
-    Key([mod], "XF86AudioRaiseVolume", lazy.spawn("ddcutil --bus=7 setvcp 10 + 10")),
+    Key([mod], "XF86AudioLowerVolume", lazy.spawn("ddcutil --bus=8 setvcp 10 - 10")),
+    Key([mod], "XF86AudioRaiseVolume", lazy.spawn("ddcutil --bus=8 setvcp 10 + 10")),
     Key([mod], "z", lazy.screen.next_group()),
     Key([mod], "a", lazy.screen.prev_group()),
 ]
@@ -252,9 +259,12 @@ mouse = [
     Drag([mod], "Button1", lazy.window.set_position_floating(), start=lazy.window.get_position()),
     Drag([mod], "Button3", lazy.window.set_size_floating(), start=lazy.window.get_size()),
     Click([mod], "Button2", lazy.window.bring_to_front()),
-    #Click([mod], "Button4", lazy.screen.next_group()),
-    #Click([mod], "Button5", lazy.screen.prev_group()),
-# for the mouse Button4 Button5
+
+    ### uncomment to control workspace switch with mouse scrolling ###
+
+    #Click([mod], "Button4", lazy.screen.next_group()), 
+    #Click([mod], "Button5", lazy.screen.prev_group()), 
+
 ]
 
 
@@ -317,6 +327,10 @@ groups = [
     Group(name="2", screen_affinity=0),
     Group(name="3", screen_affinity=0),
     Group(name="4", screen_affinity=0),
+
+    
+
+### Uncomment for secondary vertical  screen usage : 
 
 # VERTICAL SCREEN WORKSPACE :  Group(name="q", screen_affinity=1, layouts=[layout.VerticalTile(border_focus=["#8A2BE2", "000000", "#8A2BE2", "000000"], border_width=6, margin=10),]),
 
