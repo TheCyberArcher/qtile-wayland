@@ -18,7 +18,7 @@
 - [xdg-desktop-portal-gtk](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-gtk/) (xdg-desktop backward compatibility)
 - [xorg-xwayland](https://archlinux.org/packages/extra/x86_64/xorg-xwayland/) (run X clients under wayland, X11 app compatibility)
 - [sddm](https://archlinux.org/packages/extra/x86_64/sddm/) (graphical login program and session manager)
-- [cava](https://aur.archlinux.org/packages/cava) (Console-based Audio Visualizer for Alsa)
+- [cava](https://aur.archlinux.org/packages/cava) (console-based Audio Visualizer for Alsa)
 - [wofi](https://archlinux.org/packages/extra/x86_64/wofi/) (rofi inspired application launcher for wlroots compositors)
 
 ### Required tools
