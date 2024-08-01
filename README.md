@@ -6,6 +6,7 @@
 
 > The bar used is the original qtile one, reworked to be more aesthetic and to integrate well into the modern theme with audio visualizer, workspace indicator and a task manager. This configuration is intended for vanilla archlinux with zen kernel.
 <br />
+
 ### Base packages 
 
 - [qtile](https://archlinux.org/packages/extra/x86_64/qtile/) (base package for Qtile TWM)
