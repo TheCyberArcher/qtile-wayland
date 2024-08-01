@@ -6,13 +6,13 @@
 
 ### Base packages 
 
-- [qtile](https://archlinux.org/packages/extra/x86_64/qtile/)
-- [qtile-extras](https://aur.archlinux.org/packages/qtile-extras)
-- [python-wlroots](https://archlinux.org/packages/extra/x86_64/python-pywlroots/)
-- [wlroots](https://archlinux.org/packages/extra/x86_64/wlroots/)
-- [python-dbus-next](https://archlinux.org/packages/extra/any/python-dbus-next/)
-- [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/)
-- [xdg-desktop-portal](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal/)
+- [qtile](https://archlinux.org/packages/extra/x86_64/qtile/) (base package for Qtile TWM)
+- [qtile-extras](https://aur.archlinux.org/packages/qtile-extras) (add more features and widget)
+- [python-wlroots](https://archlinux.org/packages/extra/x86_64/python-pywlroots/) (python wayland)
+- [wlroots](https://archlinux.org/packages/extra/x86_64/wlroots/) (wayland compositor library)
+- [python-dbus-next](https://archlinux.org/packages/extra/any/python-dbus-next/) (Python library for DBus)
+- [xdg-desktop-portal-wlr](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-wlr/) (xdg-desktop-portal backend for wlroots)
+- [xdg-desktop-portal](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal/) (exposes D-Bus interfaces for file access, opening URIs, printing and more)
 - [xdg-desktop-portal-gtk](https://archlinux.org/packages/extra/x86_64/xdg-desktop-portal-gtk/)
 - [xorg-xwayland](https://archlinux.org/packages/extra/x86_64/xorg-xwayland/)
 - [sddm](https://archlinux.org/packages/extra/x86_64/sddm/)
