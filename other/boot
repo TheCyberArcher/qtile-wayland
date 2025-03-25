@@ -1,0 +1,3 @@
+#### Important boot parameters : 
+
+amdgpu.aspm=0 amdgpu.bapm=0 amdgpu.runpm=0 (patch flikering)
