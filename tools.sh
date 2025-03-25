@@ -4,7 +4,7 @@ echo "######### Base tools installation #########"
 
 echo "starting !"
 
-yay -Syu lxsession nwg-look wlr-randr thunar gvfs tumbler ffmpegthumbnailer flatpak wofi gnome-keyring gnome-disk-utility ntfs-3g pavucontrol linux-zen-headers alacritty grimshot
+yay -Syu lxsession nwg-look wlr-randr thunar gvfs tumbler ffmpegthumbnailer flatpak wofi gnome-keyring gnome-disk-utility ntfs-3g pavucontrol linux-zen-headers alacritty grimshot wpaperd
 
 echo "######### qtile configurations files intall #########"
 
