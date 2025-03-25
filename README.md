@@ -26,7 +26,6 @@
 - [lxsession](https://archlinux.org/packages/extra/x86_64/lxsession-gtk3/) (provide polkit agent and user session)
 - [nwg-look](https://archlinux.org/packages/extra/x86_64/nwg-look/) (wayland apparence editor)
 - [wlr-randr](https://archlinux.org/packages/extra/x86_64/wlr-randr/) (xrandr equivalent for wayland - to set the screen resolution)
-- [firewalld](https://archlinux.org/packages/extra/any/firewalld/) (best firewall for linux)
 - [thunar](https://archlinux.org/packages/extra/x86_64/thunar/) (filemanager)
 - [gvfs](https://archlinux.org/packages/extra/x86_64/gvfs/) (required by thunar)
 - [tumbler](https://archlinux.org/packages/extra/x86_64/tumbler/) (required by thunar)
