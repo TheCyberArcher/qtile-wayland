@@ -39,3 +39,4 @@
 - [linux-zen-headers](https://archlinux.org/packages/extra/x86_64/linux-zen-headers/) (headers for zen-kernel - required for some apps)
 - [alacritty](https://archlinux.org/packages/extra/x86_64/alacritty/) (terminal emulator)
 - [grimshot](https://aur.archlinux.org/packages/grimshot) (wayland compatible screenshot tool)
+- [wpaperd]() (Wayland twm wallpaper daemon)
