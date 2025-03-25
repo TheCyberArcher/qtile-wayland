@@ -1,0 +1,10 @@
+[global]
+frame_color = "#cd00cd"
+separator_color= frame
+highlight = "#8aadf4"
+foreground = "#ffffff"
+background = "#000000"
+width = (0,500)
+notification_limit=20
+font = 11
+min_icon_size=500
