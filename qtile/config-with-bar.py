@@ -6,20 +6,20 @@
 ##    |  |   |  |  |  ||  `---.    '  '--'\    |  |   |  '--' /|  `---.|  |\  \     |  | |  ||  |\  \ '  '--'\|  |  |  ||  `---.|  |\  \     ##
 ##    `--'   `--'  `--'`------'     `-----'    `--'   `------' `------'`--' '--'    `--' `--'`--' '--' `-----'`--'  `--'`------'`--' '--'    ##
 ##                                                                                                                                           ##
-###############################################################################################################################################                                                                                          
-                
-#░░░░█▐▄▒▒▒▌▌▒▒▌░▌▒▐▐▐▒▒▐▒▒▌▒▀▄▀▄░       $$$$$$\    $$\     $$\ $$\  
+###############################################################################################################################################                                                                   
+
+#░░░░█▐▄▒▒▒▌▌▒▒▌░▌▒▐▐▐▒▒▐▒▒▌▒▀▄▀▄░       $$$$$$\    $$\     $$\ $$\
 #░░░█▐▒▒▀▀▌░▀▀▀░░▀▀▀░░▀▀▄▌▌▐▒▒▒▌▐░      $$  __$$\   $$ |    \__|$$ |
 #░░▐▒▒▀▀▄▐░▀▀▄▄░░░░░░░░░░░▐▒▌▒▒▐░▌      $$ /  $$ |$$$$$$\   $$\ $$ | $$$$$$\
-#░░▐▒▌▒▒▒▌░▄▄▄▄█▄░░░░░░░▄▄▄▐▐▄▄▀░░      $$ |  $$ |\_$$  _|  $$ |$$ |$$  __$$\ 
+#░░▐▒▌▒▒▒▌░▄▄▄▄█▄░░░░░░░▄▄▄▐▐▄▄▀░░      $$ |  $$ |\_$$  _|  $$ |$$ |$$  __$$\
 #░░▌▐▒▒▒▐░░░░░░░░░░░░░▀█▄░░░░▌▌░░░      $$ |  $$ |  $$ |    $$ |$$ |$$$$$$$$ |
 #▄▀▒▒▌▒▒▐░░░░░░░▄░░▄░░░░░▀▀░░▌▌░░░      $$ $$\$$ |  $$ |$$\ $$ |$$ |$$   ____|
 #▄▄▀▒▐▒▒▐░░░░░░░▐▀▀▀▄▄▀░░░░░░▌▌░░░      \$$$$$$ /   \$$$$  |$$ |$$ |\$$$$$$$\
 #░░░░█▌▒▒▌░░░░░▐▒▒▒▒▒▌░░░░░░▐▐▒▀▀▄       \___$$$\    \____/ \__|\__| \_______|      --- Ma super Ultra configuration Script pour Le Archlinux BTW ---
 #░░▄▀▒▒▒▒▐░░░░░▐▒▒▒▒▐░░░░░▄█▄▒▐▒▒▒           \___|
-#▄▀▒▒▒▒▒▄██▀▄▄░░▀▄▄▀░░▄▄▀█▄░█▀▒▒▒▒     
+#▄▀▒▒▒▒▒▄██▀▄▄░░▀▄▄▀░░▄▄▀█▄░█▀▒▒▒▒
 
-                                                
+
 ######################################
 # Python lib
 ######################################
@@ -52,7 +52,7 @@ terminal = guess_terminal()
 
 
 layouts = [
-    layout.Columns(border_focus=["#8A2BE2", "8A2BE2", "#8A2BE2", "8A2BE2"], border_width=6, num_columns=3, margin=10),
+    layout.Columns(border_focus=["#8A2BE2", "8A2BE2", "#8A2BE2", "8A2BE2"], border_width=6, num_columns=2, margin=8),
     layout.Max(),
     ]
 
@@ -79,23 +79,22 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                #widget.CurrentLayout(),
                 widget.Spacer(
                     length = 30,
                     align="left",
                     ),
                 widget.GroupBox(
-                    fontsize=16, 
-                    border_color="#cd18cf", 
-                    active="ffffff", 
+                    fontsize=16,
+                    border_color="#cd18cf",
+                    active="ffffff",
                     inactive="ffffff",
                     urgent_text="cd18cf",
-                    highlight_method = "block", 
+                    highlight_method = "block",
                     urgent_alert_method = "block",
                     this_current_screen_border = "#cd18cf",
                     this_screen_border = "#cd18cf",
                     align="left",
-                    padding=8,
+                    padding=12,
                     visible_groups=["1","2","3","4"],
                     ),
                 widget.Spacer(
@@ -111,7 +110,7 @@ screens = [
                     align="left",
                     ),
                 widget.Clock(
-                    fontsize=16,
+                    fontsize=18,
                     align="left",
                     ),
                 widget.Spacer(
@@ -119,7 +118,7 @@ screens = [
                     align="left",
                     ),
                 widget.Image(
-                    filename="~/.config/qtile/assets/decoration1.png", 
+                    filename="~/.config/qtile/assets/decoration1.png",
                     margin=3,
                     align="left",
                     ),
@@ -142,7 +141,7 @@ screens = [
                     ),
                 extrawidgets.Visualiser(
                    autostart=True,
-                   bar_height=20,
+                   bar_height=30,
                    bar_colour="#f354ff",
                 ),
                 widget.Spacer(
@@ -157,8 +156,8 @@ screens = [
                     length = 10,
                     align="left",
                     ),
-                widget.TaskList(    
-                    fontsize=14, 
+                widget.TaskList(
+                    fontsize=14,
                     foreground="ffffff",
                     highlight_method="block",
                     rounded=True,
@@ -166,25 +165,23 @@ screens = [
                     border="#8805c0",
                     icon_size=0,
                     margin=6,
-                    padding=5,
+                    padding=8,
                     ),
                 widget.StatusNotifier(
-                    icon_size = 22,
+                    icon_size=27,
                 ),
                 widget.Spacer(
                     length = 30,
                     align="left",
                     ),
             ],
-            40,
-            margin = [2, 10, 0, 10],
+            45,
+            margin = [8, 10, 0, 10],
             background="#00000099",
         ),
-
-        wallpaper=" ~/.config/qtile/assets/wallpaper.jpg",
-        wallpaper_mode = 'fill'
     ),
 ]
+
 
 
 ######################################
@@ -234,7 +231,7 @@ keys = [
     Key([mod], "t", lazy.window.toggle_floating(), desc="Toggle floating on the focused window"),
     Key([mod, "control"], "r", lazy.reload_config(), desc="Reload the config"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
- 
+
 
 
 ######################################
@@ -243,10 +240,13 @@ keys = [
 
 
     Key([mod], "r", lazy.spawn("wofi --show drun"), desc="wofi"),
-    Key([mod], "XF86AudioLowerVolume", lazy.spawn("ddcutil --bus=8 setvcp 10 - 10")),
-    Key([mod], "XF86AudioRaiseVolume", lazy.spawn("ddcutil --bus=8 setvcp 10 + 10")),
+    Key([], "XF86AudioLowerVolume", lazy.spawn("ddcutil --bus=6 setvcp 10 - 10")),
+    Key([], "XF86AudioRaiseVolume", lazy.spawn("ddcutil --bus=6 setvcp 10 + 10")),
+    Key([mod], "i", lazy.spawn("grimshot --notify copy area"), desc="screenshot"),
     Key([mod], "z", lazy.screen.next_group()),
     Key([mod], "a", lazy.screen.prev_group()),
+    Key([mod], "s", lazy.hide_show_bar("top")),
+
 ]
 
 ######################################
@@ -262,14 +262,14 @@ mouse = [
 
     ### uncomment to control workspace switch with mouse scrolling ###
 
-    #Click([mod], "Button4", lazy.screen.next_group()), 
-    #Click([mod], "Button5", lazy.screen.prev_group()), 
+    #Click([mod], "Button4", lazy.screen.next_group()),
+    #Click([mod], "Button5", lazy.screen.prev_group()),
 
 ]
 
 
 ######################################
-# Autostart script
+# Autostart scripts
 ######################################
 
 
@@ -277,7 +277,6 @@ mouse = [
 def autostart():
     home = os.path.expanduser('~/.config/qtile/autostart.sh')
     subprocess.Popen([home])
-
 
 ######################################
 # OTHER
@@ -328,9 +327,9 @@ groups = [
     Group(name="3", screen_affinity=0),
     Group(name="4", screen_affinity=0),
 
-    
 
-### Uncomment for secondary vertical  screen usage : 
+
+### Uncomment for secondary vertical  screen usage :
 
 # VERTICAL SCREEN WORKSPACE :  Group(name="q", screen_affinity=1, layouts=[layout.VerticalTile(border_focus=["#8A2BE2", "000000", "#8A2BE2", "000000"], border_width=6, margin=10),]),
 
@@ -346,7 +345,7 @@ for i in groups :
                 lazy.group[i.name].toscreen(),
                 desc="Switch to group {}".format(i.name),
             ),
-          
+
             Key(
                 [mod, "shift"],
                 i.name,
@@ -365,3 +364,23 @@ for vt in range(1, 8):
             desc=f"Switch to VT{vt}",
         )
     )
+
+
+###### Auto hide bar when a window is open
+
+@hook.subscribe.client_killed
+def client_killed(client):
+    if qtile.current_group.windows == []:
+        qtile.current_screen.top.show(True)#
+
+@hook.subscribe.client_new
+def new_client(client):
+    if qtile.current_group.windows == []:
+        qtile.current_screen.top.show(False)
+
+@hook.subscribe.setgroup
+def setgroup():
+    if qtile.current_group.windows == []:
+        qtile.current_screen.top.show(True)
+    else:
+        qtile.current_screen.top.show(False)
